@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>DailyFoodGuide</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <style>
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #111111;
+  }
+  main {
+    background-image: url('cropped-GettyImages-643764514.jpg');
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+  </style>
+  <body style="background-color:#fffcf7;font-family: 'Montserrat', sans-serif;">
+    <ul style="list-style-type: none;margin: 0;padding: 0;overflow: hidden;background-color: #f7b548;">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="citation.html">Citation</a></li>
+      <li><a href="login.html">Login</a></li>
+      <li><a href="signup.html">Signup</a></li>
+    </ul>
+		<main>
+			<br>
+      <!--h3 style="text-align:center">~An Online Daily Healthy Diet To-Do List~</h3-->
+			<h1 style="text-align:center;align-items:center;justify-content:center;height:80vh;flex-direction: column;display:flex;font-size: 80px;margin-top:0;margin-bottom:0;color:#f7b548;"><b>Daily Food Guide for college students!</b></h1>
+		</main>
+    <br>
+		<div style="color:#373737">
+			<h2><b>Why a good diet habite is so important?</b></h2>
+			<p>A healthy diet is essential for good health and nutrition.<p>
+			<p>It protects you against many chronic noncommunicable diseases, such as heart disease, diabetes and cancer. Eating a variety of foods and consuming less salt, sugars and saturated and industrially-produced trans-fats, are essential for healthy diet.</p>
+			<p>A healthy diet comprises a combination of different foods. These include:</p>
+			<ul>
+        <li style="float:none">Staples like cereals (wheat, barley, rye maize or rise) or starchy tubers or roots (potato yam, taro or cassava).</li>
+        <li style="float:none">Legumes (lentils and beans).</li>
+        <li style="float:none">Fruit and vegetables.</li>
+        <li style="float:none">Foods from animal sources (meet, fish, eggs and milk)</li>
+      </ul>
+		</div>
+    <div>
+      <h2><b>Why it is important for you, a student to eat healthy?</b></h2>
+      <p>Research has shown that students are able to learn better when they’re well nourished, and eating healthy meals has been linked to higher grades, better memory and  alertness, and faster information processing.</p>
+      <p>One reason for this is that foods that are rich in fiber, protein, and healthy fats such as eggs, yogurt, apples and oatmeal keep the body feeling full longer, providing enough energy to focus and stay alert throughout the entire day. As a student or a parent, how do you find time to pack lunches that are healthy, tasty, and don’t take hours to prepare? One simple way that you can ensure your student is getting enough of the nutritional foods that they need is to pack foods from every color of the rainbow.</p>
+      <br>
+      <hr>
+      <br>
+      <span style="background-color:yellow"><b>--Click on different sections below in the diagram to check out more about the coresponding category!--</b></span>
+      <br>
+      <br>
+      <img src="eat-the-rainbow.jpeg" alt="picture of eating a rainbow" width="1400" height="750" align="center" usemap="#workmap">
+      <map name="workmap">
+        <area shape="rect" coords="0, 0, 280, 750" href="white.html" alt="white food">
+        <area shape="rect" coords="280, 0, 560, 750" href="yellow.html" alt="orange and yellow food">
+        <area shape="rect" coords="560, 0, 840, 750" href="red.html" alt="red food">
+        <area shape="rect" coords="840, 0, 1120, 750" href="purple.html" alt="purple food">
+        <area shape="rect" coords="1120, 0, 1400, 750" href="green.html" alt="green food">
+      </map>
+    </div>
+    <br>
+    <hr>
+    <div style="color:#373737">
+      <h4 style="text-align:center;">Ready to make some changes on your diet habite? Sign up to start your healthy diet today!</h4>
+    </div>
+    <div style="text-align:center;color:#373737"">
+      <form action='/~/homepage/signup' method='POST' enctype='multipart/form-data'>
+        <input type='email' name='username' placeholder='Email' required>
+        <input type='password' name='password' placeholder='Password' required>
+        <input type='submit' value='Sign up'>
+        <input type='hidden' name='redirecturl' value='/~/homepage/PAGENAME2REDIRECT'>
+      </form>
+      <br>
+      <span>Already a member? </span><span><a href="login.html">Log in here!</span>
+    </div>
+    <br>
+    <footer style="text-align:center;color:#373737"">
+      <a href="mailto:sven.zyww@gmail.com">© 10πHacks, Yawen Zhang | Solo</a></p>
+    </footer>
+	</body>
+</html>
