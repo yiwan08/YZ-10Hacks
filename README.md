@@ -24,4 +24,4 @@ https://www.cbsnews.com/news/unhealthy-diet-now-kills-more-people-than-tobacco-a
 https://www.health.harvard.edu/heart-health/the-high-cost-of-a-poor-diet
 
 DailyFoodGuide：
-10πHacks, Yawen Zhang | Solo
+10πHacks | Solo
